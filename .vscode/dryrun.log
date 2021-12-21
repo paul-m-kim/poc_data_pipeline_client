@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/rhythm/development/poc_data_pipeline_client'
+gcc -g -Wall -std=c99 -c src/main.c -o obj/main.o
+gcc -g -Wall -std=c99 -c src/helper_sockets.c -o obj/helper_sockets.o
+gcc -g -Wall -std=c99  obj/main.o  obj/helper_sockets.o -o bin/main
+make: Leaving directory '/home/rhythm/development/poc_data_pipeline_client'
+ 
